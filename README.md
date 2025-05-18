@@ -1,48 +1,62 @@
-```markdown
-🎬 CodeLab - Desafio 11: Kenai
+# 🎬 CodeLab - Desafio 11: Kenai
 
 Este repositório contém a solução para o **Desafio 11** do curso **CodeLab**, com o projeto **Kenai**, uma plataforma de streaming fictícia. A aplicação traz uma interface moderna, inspirada na experiência da Netflix, com destaque para exibição de filmes e gerenciamento de perfis.
 
 ---
 
-🛠️ Tecnologias utilizadas
+## 🧪 Tecnologias utilizadas
 
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Lucide Icons](https://lucide.dev/)
-- [Next.js 14 App Router](https://nextjs.org/docs/app)
+- [Next.js 15 App Router](https://nextjs.org/docs/app)
 - [Framer Motion](https://www.framer.com/motion/)
+- [Vercel](https://vercel.com)
 
 ---
 
-📁 Estrutura do projeto
+## 📁 Estrutura do projeto
 
 ```bash
 public/
+└── movies/
+    └── batman-bg.png
+└── avatars/
+    ├── matheus.png
+    ├── vitoria.png
+    └── vinicius.png
+
 src/
 ├── app/
 │   ├── components/
-│   ├── home/
-│   ├── profile/
-│   └── layout.tsx
+│   │   ├── Header.tsx
+│   │   ├── FeaturedMovie.tsx
+│   │   ├── MovieList.tsx
+│   │   ├── MovieCard.tsx
+│   │   └── ProfileCard.tsx
+│   └── (routes)/
+│       ├── home/page.tsx
+│       └── profile/page.tsx
 ├── styles/
-├── types/
-├── assets/
-├── utils/
-tailwind.config.ts
-tsconfig.json
+│   └── globals.css
+└── lib/
+    └── utils.ts
+
+tsconfig.json  
+tailwind.config.ts  
+next.config.js  
 README.md
 ```
 
 ---
 
-🚀 Como rodar o projeto localmente
+## 🚀 Como rodar o projeto localmente
 
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/codelab-desafio-11-kenai.git
+git clone https://github.com/xMattRx/codelab-desafio-11-kenai.git
 ```
 
 2. Acesse a pasta do projeto:
@@ -71,24 +85,29 @@ http://localhost:3000
 
 ---
 
-📸 Preview
+## 🔗 Deploy online
 
-![Home](./public/preview-home.png)
-
----
-
-🎯 Objetivo do desafio
-
-Neste desafio, construímos uma aplicação web de streaming com os seguintes objetivos:
-
-- Reproduzir fielmente o layout proposto no Figma
-- Implementar responsividade para mobile, tablet e desktop
-- Criar uma interface moderna com destaque para featured content
-- Praticar componentização com React + TypeScript
-- Utilizar Tailwind CSS para estilização eficiente
-- Aplicar animações suaves com Framer Motion
+Você pode acessar a aplicação hospedada em:  
+👉 [https://codelab-desafio-11-kenai-rc73.vercel.app](https://codelab-desafio-11-kenai-rc73.vercel.app)
 
 ---
 
-🔗 Desafio proposto por [CodeLab](https://codelab.dev.br/)
-```
+## 🎯 Objetivo do desafio
+
+Neste desafio, criamos uma aplicação de streaming fictícia com os seguintes objetivos:
+
+- Trabalhar com fidelidade ao layout do Figma
+- Implementar uma interface com múltiplas resoluções (mobile, tablet e desktop)
+- Usar boas práticas de responsividade com Tailwind CSS
+- Utilizar o roteamento por pastas com App Router do Next.js 15
+- Criar um layout visualmente atrativo e funcional
+- Praticar animações com Framer Motion
+- Implementar controle de estado com componentes reutilizáveis
+
+---
+
+## 📸 Preview
+
+![Kenai Preview](https://github.com/xMattRx/codelab-desafio-11-kenai/assets/preview.jpg) <!-- Substitua com o link da imagem se desejar -->
+
+---
