@@ -1,15 +1,13 @@
 import ProfileCard from "@/app/components/ProfileCard";
-import matheus from "@/public/avatars/matheus.png";
-import vinicius from "@/public/avatars/vinicius.png";
-import vitoria from "@/public/avatars/vitoria.png";
 
 
 
 const profiles = [
-    { name: "Matheus Ramos", imageUrl: matheus.src },
-    { name: "Vitória Luz", imageUrl: vitoria.src },
-    { name: "Vinicius Eiji", imageUrl: vinicius.src },
+    { name: "Matheus Ramos", imageUrl: "/avatars/matheus.png" },
+    { name: "Vitória Luz", imageUrl: "/avatars/vitoria.png" },
+    { name: "Vinicius Eiji", imageUrl: "/avatars/vinicius.png" },
 ];
+
 
 
 export default function ProfilePage() {
