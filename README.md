@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+```markdown
+🎬 CodeLab - Desafio 11: Kenai
 
-## Getting Started
+Este repositório contém a solução para o **Desafio 11** do curso **CodeLab**, com o projeto **Kenai**, uma plataforma de streaming fictícia. A aplicação traz uma interface moderna, inspirada na experiência da Netflix, com destaque para exibição de filmes e gerenciamento de perfis.
 
-First, run the development server:
+---
+
+🛠️ Tecnologias utilizadas
+
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
+- [Next.js 14 App Router](https://nextjs.org/docs/app)
+- [Framer Motion](https://www.framer.com/motion/)
+
+---
+
+📁 Estrutura do projeto
+
+```bash
+public/
+src/
+├── app/
+│   ├── components/
+│   ├── home/
+│   ├── profile/
+│   └── layout.tsx
+├── styles/
+├── types/
+├── assets/
+├── utils/
+tailwind.config.ts
+tsconfig.json
+README.md
+```
+
+---
+
+🚀 Como rodar o projeto localmente
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/codelab-desafio-11-kenai.git
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd codelab-desafio-11-kenai
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Inicie o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Acesse no navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+📸 Preview
 
-To learn more about Next.js, take a look at the following resources:
+![Home](./public/preview-home.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🎯 Objetivo do desafio
 
-## Deploy on Vercel
+Neste desafio, construímos uma aplicação web de streaming com os seguintes objetivos:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Reproduzir fielmente o layout proposto no Figma
+- Implementar responsividade para mobile, tablet e desktop
+- Criar uma interface moderna com destaque para featured content
+- Praticar componentização com React + TypeScript
+- Utilizar Tailwind CSS para estilização eficiente
+- Aplicar animações suaves com Framer Motion
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+🔗 Desafio proposto por [CodeLab](https://codelab.dev.br/)
+```
